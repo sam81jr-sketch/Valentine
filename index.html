@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Valentine</title>
+
+  <style>
+    body {
+      background-color: #dc7dad;
+      font-family: Times New Roman;
+      overflow: hidden;
+      position: relative;
+    }
+
+    #mathan {
+      border: 2px solid #eec8cf;
+      border-radius: 20px;
+      margin-top: 100px;
+      margin-left: 30px;
+      border: 2px solid #2E003E;
+      
+    }
+      #mathan2 {
+      border: 2px solid #eec8cf;
+      border-radius: 20px;
+      margin-top: 260px;
+      margin-left: 30px;
+      display: none;
+        border: 2px solid #2E003E;
+      
+    }
+     #mathan3{
+      border: 2px solid #eec8cf;
+      border-radius: 20px;
+      margin-top: 260px;
+      margin-left: 30px;
+      display: none;
+       border: 2px solid #2E003E;
+      
+    }
+
+    button {
+      width: 230px;
+      height: 100px;
+      border: 2px solid white;
+      border-radius: 20px;
+      font-size: 40px;
+      border: 2px solid #2E003E;
+    
+      
+    }
+    #yes{
+       margin-left: 180px;
+       margin-top:200px;
+      border: 2px solid #2E003E;
+    } 
+
+    #nodiv {
+     
+      width: 200px;
+      height: 150px;
+      margin-top: -50px;
+      margin-left: 590px;
+      position: relative; 
+    
+    }
+
+    #no {
+      position: absolute;
+      background-color: #fdd5df;
+      margin-left: -30px;
+      margin-top: -50px;
+      border: 2px solid #2E003E;
+    }
+    video{
+      margin-top: 260px;
+      border-radius:20px;
+      margin-left: 40px;
+      display: none;
+      border: 2px solid #2E003E;
+    }
+  #note{
+    margin-left:220px;
+    margin-top: 290px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 50px;
+    font-family: Times New Roman;
+  }
+  #para{
+    text-align: center;
+    display: none;
+    font-size: 40px;
+  }
+  #Choose{
+    margin-left:260px;
+    margin-top: -470px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-family: Times New Roman;
+  }
+  
+  #poem{
+    display: none;
+    margin-left: 380px;
+    border: 2px solid #2E003E;
+  }
+
+ #fell{
+     display: none;
+            margin-top: 100px;
+
+     
+ }
+ #poetry{
+      margin-left: 380px;
+      margin-top: -30px;
+       display: none;
+       position: relative;
+   border: 2px solid #2E003E;   /* deep purple on white */
+ }
+
+ #reason{
+   /* margin-left: 100px; */
+   /* margin-top: 100px; */
+   font-weight: 500;
+   font-size: 50px;
+   font-style: italic;
+   text-align: center;
+   display: none;
+ }
+  #reason2{
+   margin-left: 50px;
+   margin-top: 50px;
+   font-weight: 500;
+   font-size: 40px;
+   font-style: italic;
+   text-align: left;
+   display: none;
+    font-family:Times New Roman;
+ }
+  #msg{
+     
+    width: 500px;
+    height: 80px;
+    margin-left: 250px;
+    text-align: center;
+    font-size: 30px;
+  }
+    #nodiv {
+      width: 300px;
+      height: 300px;
+      margin-top: -50px;
+      margin-left: 590px;
+      position: relative; /* REQUIRED */
+    }
+  </style>
+</head>
+
+<body>
+  <img src="valentine.jpg" alt="Valentine Image" width="900px" id="mathan">
+
+
+  <button onclick="yes()" id="yes">YES❤️</button>
+  <div id="nodiv">
+    <button id="no">NO.....!</button><br><br>
+  </div>
+
+
+ <h4 id="Choose"> Choose Wisley lady....💖</h4>
+ <h5 id="note">Note: No is kinda shy.....💞</h5>
+  <div id="msg"></div>
+    <video width="900px" id="vid"autoplay muted loop>,
+  <source src="video.mp4" type="video/mp4">
+</video>
+
+  <h2 id="para">I’m really happy you said yes ❤️
+You have no idea how much this means to me. I promise to care for you, respect you, and make you smile as much as I can 😊I may not be perfect, but I promise to be honest, loyal, and always there for you in your hard times Am not gonna leave you for others and I will  make you feel the most happiest and the special peron in the universe🌞 </h2>
+  <button id="poem" onclick="foru()">For U🫵</button>
+   <!-- <button    id="fell"  onclick="fell()">Why U❤️</button> -->
+    <img src="u.jpg" alt="Valentine Image" width="900" id="mathan2">
+           <h4 id="reason"> The way i fell for you is your eyes and your chatacter the way you behave with people around you and the other thing is i see myself in you and I can't able to imagine a world without you you are reason of my happines and my smile truely you are an Angel lady👼</h4>
+   <button id="poetry" onclick="poet()">letter💌</button>
+    <img src="for.jpg" alt="Valentine Image" width="900" id="mathan3">
+                     <h4 id="reason2">My Lady🌕<br><br>
+In the quiet moments between heartbeats,<br>
+I find your name written in my soul.<br>
+Not loud, not rushed—<br>
+just steady, like a promise that knows where it belongs.<br>
+Your eyes don’t just look at the world,<br>
+they understand it.<br>
+They hold kindness, strength, and a calm<br>
+that makes my restless heart feel at home.<br>
+You walk with grace without trying,<br>
+love without asking for applause,<br>
+and smile in a way that turns ordinary days<br>
+into memories I want to keep forever.<br>
+I don’t love you for perfection—<br>
+I love you for truth.<br>
+For the way you are you,<br>
+even when the world asks you to be more.<br>
+If love were a journey,<br>
+I’d choose every road that leads to you.<br>
+And if forever had a face,<br>
+my lady, it would look like yours............!</h4>
+
+
+  
+
+  <script>
+        const btn = document.getElementById("no");
+    const box = document.getElementById("nodiv");
+    const msg = document.getElementById("msg");
+
+    const texts = [
+      "Too slow 😜",
+      "Almost 😂",
+      "Not today 😎",
+      "Nice try 😏",
+      "You can’t catch me 😈"
+    ];
+
+    /* ✅ NO BUTTON MOVES ONLY INSIDE nodiv */
+    function move() {
+      const maxX = box.clientWidth - btn.offsetWidth;
+      const maxY = box.clientHeight - btn.offsetHeight;
+
+      const x = Math.random() * maxX;
+      const y = Math.random() * maxY;
+
+      btn.style.left = x + "px";
+      btn.style.top  = y + "px";
+
+      msg.innerText = texts[Math.floor(Math.random() * texts.length)];
+    }
+
+    btn.addEventListener("mouseover", move);
+    btn.addEventListener("touchstart", move);
+
+    function yes() {
+      document.getElementById("mathan").style.display = "none";
+      document.getElementById("no").style.display = "none";
+      document.getElementById("yes").style.display = "none";
+      document.getElementById("vid").style.display = "block";
+      document.getElementById("note").style.display = "none";
+      document.getElementById("para").style.display = "block";
+      document.getElementById("poem").style.display = "block";
+       document.getElementById("msg").style.display = "none";
+    }
+    function foru(){
+       document.getElementById("mathan").style.display = "none";
+      document.getElementById("no").style.display = "none";
+      document.getElementById("yes").style.display = "none";
+      document.getElementById("vid").style.display = "none";
+      document.getElementById("note").style.display = "none";
+      document.getElementById("para").style.display = "none";
+       document.getElementById("poem").style.display = "none";
+      document.getElementById("poetry").style.display = "block";
+      document.getElementById("reason").style.display = "block";
+      
+       document.getElementById("mathan2").style.display = "block";
+      
+    }
+    function poet(){
+      document.getElementById("reason").style.display = "none";
+      document.getElementById("mathan2").style.display = "none";
+      document.getElementById("poetry").style.display = "none";
+       document.getElementById("mathan3").style.display = "block";
+        document.getElementById("reason2").style.display = "block";
+    }
+  </script>
+  
+</body>
+</html>
